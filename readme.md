@@ -45,13 +45,13 @@ terraform destroy
 ```
 
 
-Connecting to AWS EC2
+# Connecting to AWS EC2
 
 ```
 ssh -i "C:\Users\setia\.ssh\ec2-key" ubuntu@<public IP>
 ```
 
-Checking Ubuntu version
+# Checking Ubuntu version
 
 ```
 lsb_release -a
@@ -65,4 +65,14 @@ Distributor ID: Ubuntu
 Description:    Ubuntu 24.04.2 LTS
 Release:        24.04
 Codename:       noble
+```
+
+# Checking Nagios Version
+```
+>sudo /usr/local/nagios/bin/nagios --version
+Nagios Core 4.5.2
+Copyright (c) 2009-present Nagios Core Development Team and Community Contributors
+Copyright (c) 1999-2009 Ethan Galstad
+Last Modified: 2024-04-30
+License: GPL
 ```
